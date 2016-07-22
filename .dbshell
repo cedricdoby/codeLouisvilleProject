@@ -1,0 +1,16 @@
+show dbs
+printjson(db.fortune.find().toArray())
+db.fortune.find()
+db.fortune.find(fortune)
+get.Indexes
+db.fortune.getIndexs
+db.collection('fortune').find()
+db.fortune
+db.find()
+db.collection.find({},{})
+db.collection.find({},)
+db.collection.find({},param)
+db.collection.find({},{1})
+db.collection.find({},{"_id":})
+db.collection.find({"fortune": 1})
+db.collection.find({"fortune": 1, 0})
